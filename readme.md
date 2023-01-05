@@ -5,5 +5,5 @@ This simple bash script removes snap from Ubuntu. Why? Because snap is severely 
 **Usage**
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/BryanDollery/remove-snap/main/remove-snap.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Xelofan/remove-snap/main/remove-snap.sh)"
 ```
