@@ -6,7 +6,7 @@ echo "Removing snap..."
 sudo systemctl disable --now snapd
 
 # Uninstall
-sudo apt purge -y snapd
+sudo apt purge --autoremove snapd -y
 
 # Tidy up dirs
 sudo rm -rf /snap /var/snap /var/lib/snapd /var/cache/snapd /usr/lib/snapd ~/snap
